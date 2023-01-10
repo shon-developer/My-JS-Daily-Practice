@@ -1,0 +1,23 @@
+body {
+  height: auto;
+  text-align: center;
+  margin-top: 300px;
+  font-family: sans-serif;
+}
+
+h1 {
+  animation-name: shon;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  cursor: pointer;
+}
+
+@keyframes shon {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
